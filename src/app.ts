@@ -15,7 +15,7 @@ import paymentRouter from "./modules/payments/payments.route.js";
 const app = express();
 
 const allowedOrigins = [
-    "http://localhost:3000",
+    "https://service-hub-client-side.vercel.app",
     process.env.FRONTEND_URL
 ].filter((origin): origin is string => Boolean(origin));
 
